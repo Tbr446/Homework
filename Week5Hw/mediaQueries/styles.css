@@ -1,0 +1,49 @@
+/* CSS Media Queries Practice
+Included in week 5 homework is the index.html file from a site about Andre the Giant.
+
+In the styles.css file, fix the styling for the site, and create a media query that fixes the site to correctly display on the "iPhone 6/7/8" view in DevTools.
+
+Focus on the following:
+
+The #bio <ul> at the top of the page
+<img> tags
+<div> tags
+links */
+
+
+html {
+    background-color: antiquewhite;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: left;
+  }
+  
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+  
+  #pro {
+    width: auto;
+  }
